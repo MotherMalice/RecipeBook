@@ -41,7 +41,7 @@ const RecipeSearch = () => {
   return (
     <div className='Parent'>
       <SearchAppBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-      <Grid container spacing={2} paddingTop={'1em'}>
+      <Grid container spacing={2} paddingLeft={'1em'} paddingTop={'1em'}>
         {filteredData.map(item => (
           <Grid item xs={12} sm={6} md={4} key={item.id}>
             <ActionAreaCard 
